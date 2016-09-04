@@ -1,0 +1,104 @@
+<div style="margin-top: 4em" id="MoreEvents">
+    <div style="font-size: 230%; margin-bottom: 0.3em; background: #99b3cc; color: white; padding: 0.2em">
+        Предыдущие мероприятия
+    </div>
+    <p>
+        С 2007 года мы провели серию Perl-мероприятий в семи странах: в России, на Украине, в Белоруссии, Болгарии, Латвии, Узбекистане и Казахстане.
+    </p>
+    <ul>
+        <li>Россия: Москва (6 мероприятий), Санкт-Петербург (6), Екатеринбург (3), Ростов-на-Дону, Владивосток;</li>
+        <li>Украина: Киев (6), Черное море;</li>
+        <li>Белоруссия: Минск (2);</li>
+        <li>Болгария: София (5);</li>
+        <li>Латвия: Рига (2);</li>
+        <li>Узбекистан: Ташкент;</li>
+        <li>Казахстан: Кустанай.</li>
+    </ul>
+
+    <h4>2014</h4>
+    <ul>
+        <li>“<a href="/yr2014/">YAPC::Russia 2014</a>”, St. Petersburg (Russia), 13–14 June.</li>
+    </ul>
+
+    <h4>2013</h4>
+    <ul>
+        <li>11th Russian Perl Workshop “<a href="/saintperl5/">Saint Perl 5</a>”. St. Petersburg (Russia), 21th December.</li>
+        <li>The 14th YAPC::Europe 2013 “<a href="/ye2013/">Future Perl</a>”, Kiev (Ukraine), 12–14 August.</li>
+        <li>The Fifth Bulgarian Perl Workshop “<a href="http://event.yapcrussia.org/sofia2013/">BG Perl — 5</a>”. Sofia (Bulgaria), 9th February.</li>
+    </ul>
+
+    <h4>2012</h4>
+    <ul>
+        <li>The Tenth Russian Perl Workshop “<a href="http://event.yapcrussia.org/saintperl4/">Saint-Perl—4</a>”. Saint-Petersburg (Russia). 21th December.</li>
+        <li>The joint conference “<a href="http://event.yapcrussia.org/yr2012/">Perl Mova + YAPC::Russia</a>”. Kiev (Ukraine), 12–13th May.</li>
+        <li>The Fourth Bulgarian Perl Workshop “<a href="http://event.yapcrussia.org/sofia2012/">BG Perl — 4</a>”. Sofia (Bulgaria), 10th March.</li>
+        <li>The Ninth Russian Perl Workshop “<a href="http://event.yapcrussia.org/perlburg3/">Perlburg</a>”. Ekaterinburg (Russia), 18th February.</li>
+    </ul>
+
+    <h4>2011</h4>
+    <ul>
+        <li>The Eights Russian Perl Workshop “<a href="http://event.yapcrussia.org/saintperl3/">Saint-Perl—3</a>”. Saint-Petersburg (Russia). 18th December.</li>
+        <li>The Perl Workshop on the Black Sea “<a href="http://event.yapcrussia.org/bp2011/">Black Perl</a>”, Ukraine, 30th September – 2nd October.</li>
+        <li>The 12th YAPC::Europe 2011 “<a href="http://yapceurope.lv/ye2011/">Modern Perl</a>”, Riga (Latvia), 15–17 August.</li>
+        <li>The Forth YAPC::Russia “<a href="http://event.yapcrussia.org/mayperl4/">May Perl — 4</a>”, Moscow (Russia), 14–15 May.</li>
+        <li>The Third Bulgarian Perl Workshop “<a href="http://event.yapcrussia.org/sofia2011/">BG Perl — 3</a>”. Sofia (Bulgaria), 26th February.</li>
+        <li>The Seventh Russian Perl Workshop “<a href="http://event.yapcrussia.org/perlburg2/">Perlburg</a>”. Ekaterinburg (Russia), 2nd April.</li>
+    </ul>
+
+    <h4>2010</h4>
+    <ul>
+        <li>The Sixth Russian Perl Workshop “<a href="http://event.yapcrussia.org/saintperl2/">Saint-Perl—2</a>”. Saint-Petersburg (Russia). 18th December.</li>
+        <li>The joint conference “<a href="http://social.yapcrussia.org/yr2010/">Perl Mova + YAPC::Russia</a>”. Kiev (Ukraine), 12–14th June.</li>
+        <li><!a href="http://devconf.ru/perl/page/programm/">The Perl branch of DevConf conference</a>, Moscow (Russia), 17–18th May.</li>
+        <li>The Perl branch of <!a href="http://ritconf.ru/">RIT++ conference</a>, Moscow (Russia), 12–14th April.</li>
+        <li>The Fifth Russian Perl Workshop “<a href="http://event.yapcrussia.org/perlburg/">Perlburg</a>”. Ekaterinburg (Russia), 20th February.</li>
+        <li>The Second Bulgarian Perl Workshop “<a href="http://event.perlbulgaria.org/sofia2010/">BG Perl — 2</a>”. Sofia (Bulgaria), 30th January.</li>
+    </ul>
+
+     <h4>2009</h4>
+     <ul>
+         <li>The Fourth Russian Perl Workshop “<a href="http://event.yapcrussia.org/saintperl/">Saint-Perl</a>”. Saint-Petersburg (Russia). 18th December.</li>
+         <li><a href="http://event.yapcrussia.org/perlkz1/">The First Kazakh Perl Workshop</a>, Kostanay (Kazakhstan), 28th November.</li>
+         <li><a href="http://event.perl.lv/baltic2009/">The Baltic Perl Workshop</a>. Riga (Latvia), 21st November.</li>
+         <li>The Second Belarusian Perl Workshop “<a href="http://event.perlbelarus.org/minsk2009/">BY Perl Too</a>”. Minsk (Belarus), 17th October.</li>
+         <li>The Second YAPC::Russia “<a href="http://event.yapcrussia.org/mayperl2/">May Perl — 2</a>”. Moscow (Russia), 16–17th May.</li>
+         <li>The First Uzbek Perl Workshop “<a href="http://event.yapcrussia.org/perluz1/">Perl Tashkent</a>” (“Camel Perl”). Tashkent (Uzbekistan), 13th May.</li>
+         <li>The Second Ukrainian Perl Workshop “<a href="http://event.perlukraine.org/upw2009/">Perl Mova — 2</a>”. Kiev (Ukraine), 7th March.</li>
+         <li>The First Bulgarian Perl Workshop “<a href="http://event.perlbulgaria.org/sofia2009/">BG Perl</a>”. Sofia (Bulgaria), 31th January.</li>
+     </ul>
+
+     <h4>2008</h4>
+     <ul>
+         <li>The Third Russian Perl Workshop “<a href="http://event.perlrussia.ru/rpw2008/">South Perl</a>”. Rostov-on-Don (Russia), 2nd November.</li>
+         <li>The First Belarusian Perl Workshop “<a href="http://event.perlbelarus.org/minsk2008/">BY Perl</a>”. Minsk (Belarus), 18th October.</li>
+         <li>The Second Russian Perl Workshop “<a href="http://event.perlrussia.ru/fe2008/">Far East Perl</a>”. Vladivostok (Russia), 26th September.</li>
+         <li>The First YAPC::Russia “<a href="http://event.perlrussia.ru/yr2008/">May Perl</a>”. Moscow (Russia), 17–18th May.</li>
+         <!--li><a href="http://conferences.yapceurope.org/hrpw2008/">The First Croatial Perl Workshop</a>. Zagrep (Croatia), 15th August.</li-->
+         <li>The First Ukrainian Perl Workshop “<a href="http://event.perlukraine.org/upw2008/">Perl Mova</a>”. Kiev (Ukraine), 23th March.</li>
+     </ul>
+
+     <h4>2007</h4>
+     <ul>
+         <li>The First Russian Perl Workshop “<a href="http://2007.perlrussia.ru/">Perl Today</a>”. Moscow (Russia), 26th October.</li>
+    </ul>
+</div>
+
+<div style="font-size: 230%; margin-top: 40px; margin-bottom: 0.3em; background: #99b3cc; color: white; padding: 0.2em">
+    Русский Perl — свежие новости
+</div>
+
+<style type="text/css">
+    div.feedburnerFeedBlock {
+        background-color:#ffffff;
+        line-height:14pt;
+    }
+    div.feedburnerFeedBlock ul li span.headline {
+        font-weight:bold;
+    }
+</style>
+<div style="max-width: 600px; overflow: hidden">
+    <script src="http://feeds.feedburner.com/feedburner/ERHIL?format=sigpro" type="text/javascript" ></script>
+    <noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/feedburner/ERHIL"></a>
+    <br/>Powered by FeedBurner</p> </noscript>
+</div>
+

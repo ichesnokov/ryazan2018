@@ -1,0 +1,10 @@
+<div class="menu">
+	<p>[% PROCESS menus/users %]</p>
+	<p>[% PROCESS menus/news %]</p>
+	<p>[% PROCESS menus/talks %]</p>
+	<p>[% PROCESS menus/events %]</p>
+	<p>[% PROCESS menus/wiki %]</p>
+	<!--p><div class="items"><a href="/saintperl2/booking.html"><t><ru>Поиск гостиниц</ru><en>Hotel search</en></t></a></div></p-->
+	<p>[% PROCESS menus/treasurer %]</p>
+	<p>[% PROCESS menus/admin %]</p>
+</div>

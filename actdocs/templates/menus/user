@@ -1,0 +1,52 @@
+<table width="90%"><tr><td width="80%">
+
+[% IF global.request.path_info == 'index.html' %]
+	<img class="homeicon" src="/[% global.request.conference %]/img/home.gif" width="11" height="10" alt="" />
+[% ELSE %]
+	<a class="homeicon" href="/[% global.request.conference %]/"><img src="/[% global.request.conference %]/img/home-link.gif" width="11" height="10" alt="" /></a>
+[% END %]
+
+[% IF global.request.user %]
+	[% IF global.request.action == 'user' %]
+		<span class="selected">[% global.request.user.login %]</span>
+	[% ELSE %]
+		<a href="[% make_uri_info('user', global.request.user.user_id) %]">[% global.request.user.login %]</a>
+	[% END %]
+
+	[% UNLESS global.request.user.participation OR global.config.closed %]
+		<a href="[% make_uri('register') %]">{{Register}}</a>
+	[% END %]
+
+	[% IF global.request.action == 'main' %]
+		<span class="selected">{{Edit profile}}</span>
+	[% ELSE %]
+		<a href="[% make_uri('main') %]">{{Edit profile}}</a>
+	[% END %]
+
+	<a href="[% make_uri('logout') %]">{{Logout}}</a>
+
+	[% ELSE %]
+		<span>
+			{{Register}}:
+		</span>
+
+	[% IF global.request.action == 'login' %]
+		<span class="selected">{{Log in}}</span>
+	[% ELSE %]
+		<a href="[% make_uri('main') %]">{{Log in}}</a>
+	[% END %]
+
+	[% UNLESS global.config.closed %]
+		[% IF global.request.action == 'register' %]
+			<span class="selected">{{New user}}</span>
+		[% ELSE %]
+			<a href="[% make_uri('register') %]">{{New user}}</a>
+		[% END %]
+	[% END %]
+[% END %]
+
+</td><td align="right">
+
+
+
+</td></tr></table>

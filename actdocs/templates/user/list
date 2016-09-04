@@ -1,0 +1,54 @@
+<t>
+	<en>Speakers are listed in bold in this list.</en>
+	<ru>В этом списке жирным шрифтом выделены докладчики.</ru>
+	<be>В этом списке жирным шрифтом выделены докладчики</be>
+</t>
+
+[% IF users.size %]
+<table id="user-list">
+<tr>
+ <th>{{Name}}</th>
+ <th>{{City}}</th>
+ <th>{{Country}}</th>
+ <th>{{Monger group}}</th>
+ [% IF global.request.user.is_orga %]
+ <th>{{Email}}</th>
+ [% END %]
+</tr>
+[% FOREACH u=users %]
+ <tr>
+   <td>
+    [% "<strong>" IF u.committed %][% user_info(u) %][% "</strong>" IF u.committed %]
+    [% IF u.photo_name %]
+    <img src="/images/photo.png" alt="photo" title="photo" width="12" height="12" />
+    [% END %]
+   </td>
+   <td>
+      [%- IF u.town %]
+         [% u.town %]
+      [%- ELSE %]
+         &nbsp;
+      [% END %]
+   </td>
+   <td>
+      [% countries_iso.${u.country} %]
+   </td>
+   <td>
+      [%- IF u.pm_group %]
+         [% IF u.pm_group_url %]<a href="[% u.pm_group_url %]">[% END %]
+         [%- u.pm_group -%]
+         [%- IF u.pm_group_url %]</a>[% END %]
+      [% ELSE %]
+         &nbsp;
+      [% END %]
+   </td>
+   [% IF global.request.user.is_orga %]
+   <td>
+    <a href="mailto:[% u.email %]">[% u.email %]</a>
+   </td>
+   [% END %]
+</tr>
+[% END %]
+
+</table>
+[% END %]
