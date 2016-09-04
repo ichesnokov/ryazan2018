@@ -4,14 +4,6 @@
 	<title>[% PROCESS title %]</title>
 	<link rel="stylesheet" type="text/css" href="/[% global.request.conference %]/css/main.css" />
 	<link rel="openid.server" href="[% make_uri('openid') %]" />
-	[% IF global.request.path_info == 'booking.html' %]
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"> </script>
-	<script src="http://api-maps.yandex.ru/1.1/index.xml?key=AGP2yUwBAAAABNOIYAIAPaEqDovFC7cSgw_ekq5mO_pdhaoAAAAAAAAAAAA1DRbs8wTDubD1h9z_4bn9ISXHGA==" type="text/javascript"></script>
-	[% END %]
-	[% IF global.request.path_info == 'booking2.html' %]
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"> </script>
-	<script src="http://api-maps.yandex.ru/1.1/index.xml?key=AGP2yUwBAAAABNOIYAIAPaEqDovFC7cSgw_ekq5mO_pdhaoAAAAAAAAAAAA1DRbs8wTDubD1h9z_4bn9ISXHGA==" type="text/javascript"></script>
-	[% END %]
 </head>
 
 [% BLOCK context %]
