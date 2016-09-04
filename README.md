@@ -1,2 +1,2 @@
 # ryazan2016
-Russian Perl Workshop in Ryazan, 2016
+Russian Perl Workshop in Ryazan, October 2016
