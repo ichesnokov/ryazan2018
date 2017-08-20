@@ -212,10 +212,6 @@ ul li
 	margin: 0 0 0.5em 1em;
 	padding: 0;
 }
-
-ul.payed_items {
-	list-style-type: disc;
-}
 fieldset
 {
 	margin-bottom: 1em;
